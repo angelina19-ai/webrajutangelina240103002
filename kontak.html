@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Rajut Ceria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <a class="logo" href="index.html">Rajut Ceria</a>
+        <button class="menu-btn" id="menuBtn" type="button">☰</button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a class="" href="index.html">Beranda</a></li>
+            <li><a class="" href="about.html">Tentang Kami</a></li>
+            <li class="dropdown">
+                <a class="" href="produk.html" id="produkBtn">Produk ▾</a>
+                <ul class="dropdown-menu" id="submenu">
+                    <li><a href="produk.html#tas">Tas Rajut</a></li>
+                    <li><a href="produk.html#bunga">Bunga Rajut</a></li>
+                    <li><a href="produk.html#gantungan">Gantungan Kunci</a></li>
+                </ul>
+            </li>
+            <li><a class="active" href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="content">
+        <h1>Hubungi Kami</h1>
+
+        <div class="contact-box">
+            <div>
+                <h2>Informasi Kontak</h2>
+                <p><b>Alamat:</b> Titi Kuning, Gang Manggis</p>
+                <p><b>Telepon:</b> 0895-4026-59723</p>
+                <p><b>Email:</b> rajutceria@email.com</p>
+                <p><b>Instagram:</b> @rajutceria</p>
+            </div>
+
+            <form>
+                <h2>Kirim Pesan</h2>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" placeholder="Masukkan nama">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Masukkan email">
+
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" rows="4" placeholder="Tulis pesan kamu"></textarea>
+
+                <button class="button" type="button">Kirim</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
